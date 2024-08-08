@@ -1,0 +1,202 @@
+
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body {
+    
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background:#ffffff ;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    background: hsl(180, 50%, 27%);
+    color: #fff;
+    padding: 10px;
+    margin: 0 -20px;
+}
+
+.horizontal-list {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px 0;
+}
+
+.item {
+    flex: 0 0 auto;
+    width: 150px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.item label {
+    display: block;
+    margin: 10px 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background:  hsl(180, 50%, 27%);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #355652;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 3px solid  hsl(180, 50%, 27%);
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+
+   
+}
+th{
+    background-color: #597975;
+}
+
+
+.mainheader {
+    background-color: hsl(180, 50%, 27%);
+    color: white;
+}
+
+#logo {
+    font-size: 150%;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center; /* Center the logo */
+    margin-bottom: 10px; /* Add space between logo and navigation */
+}
+
+.mainheader nav {
+    display: flex;
+    justify-content: center; /* Center align navigation */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 65px; /* Adjust spacing between navigation items */
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #9cdfe4;
+    text-decoration: underline;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #226666;
+    min-width: 160px;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown-content a:hover {
+    background-color: #9cdfe4;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+@media screen and (max-width: 375px) {
+    .mainheader {
+      padding: 5px; /* Reduce padding for smaller screens */
+    }
+  
+    #logo {
+      font-size: 100%; /* Decrease logo size for smaller screens */
+    }
+  
+    nav ul {
+      flex-direction: row; /* Stack navigation items horizontally on smaller screens */
+      align-items: center; /* Center-align navigation items */
+    }
+  
+    nav ul li {
+      margin: 0px 5px; /* Adjust spacing between navigation items */
+    }
+  }
+
+
+/* Submit button styling */
+.center-btn {
+    text-align: center;
+}
+
+input[type="submit"] {
+    background-color: hsl(180, 50%, 27%);
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: hsl(180, 22%, 26%);
+}

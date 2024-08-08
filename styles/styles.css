@@ -1,0 +1,696 @@
+
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+p{
+    text-align:center;
+    font-size: 130%;
+}
+h2{
+    font-size: 150%;
+    text-align: center;
+    color: #226666;
+    font-weight: 700;
+   
+    
+}
+footer{
+    background-color: #226666;
+}
+.list{
+    font-size: 130%;
+    text-align: left;
+    font-weight: 900;
+
+}
+
+.home {
+    min-height:70vh;
+    background: url(/images/background\ 2.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    max-height: 25%;
+}
+.why-choose-us {
+    width: auto;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+    
+}
+.why-choose-us p{
+    color: black;
+}
+.section-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.image {
+    width: auto;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.text {
+    flex: 1; 
+    padding: 0 20px; /* Add padding for spacing */
+
+}
+
+.text h2 {
+    margin-bottom: 10px; 
+}
+.center-btn {
+    text-align: center;
+}
+
+.vegetables {
+    min-height: 50vh;
+    background: url(/images/vegetables\ background.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    max-height: 25%;
+    padding: 20px;
+}
+
+.dairy {
+    min-height: 50vh;
+    background: url(/images/dairy\ background.jpeg);
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    max-height: 25%;
+}
+.meat {
+    min-height: 50vh;
+    background: url(/images/meat\ 2.jpeg);
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    max-height: 25%;
+}
+.cosmetics {
+    min-height: 50vh;
+    background: url(/images/cosmetics\ background.webp);
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    max-height: 25%;
+}
+.loyalty {
+    min-height: 50vh;
+    background: url(/images/loyalty.webp);
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    max-height: 25%;
+}
+.about-us{
+    min-height: 50vh;
+    background: url(/images/about\ uss.jpeg);
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    max-height: 25%;
+}
+.order {
+    min-height: 50vh;
+    background: url(/images/order.webp);
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    max-height: 25%;
+}
+
+
+.text-container {
+    padding: 5vh;
+    background-color:#226666 ;
+    color: white;
+    opacity:0.8;
+    font-size: 1rem;
+    max-width: 800px;
+    margin: 0 auto; /* Center the text container */
+    box-sizing: border-box; 
+    }
+.text-container h2{
+    color: white;
+}
+@media screen and (max-width: 375px) {
+    .home {
+        max-height: 30vh; /* Decrease minimum height for smaller screens */
+    }
+
+    .text-container {
+        padding: 3vw; /* Adjust padding for smaller screens */
+        font-size: 1.2rem; /* Adjust font size for smaller screens */
+        min-height: 30vh;
+        font-size: 70%;
+    }
+}
+
+
+.mainheader {
+    background-color: hsl(180, 50%, 27%);
+    color: white;
+}
+
+#logo {
+    font-size: 150%;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center; /* Center the logo */
+    margin-bottom: 10px; /* Add space between logo and navigation */
+}
+
+.mainheader nav {
+    display: flex;
+    justify-content: center; /* Center align navigation */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 65px; /* Adjust spacing between navigation items */
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #9cdfe4;
+    text-decoration: underline;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #226666;
+    min-width: 160px;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown-content a:hover {
+    background-color: #9cdfe4;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+@media screen and (max-width: 375px) {
+    .mainheader {
+      padding: 5px; /* Reduce padding for smaller screens */
+    }
+  
+    #logo {
+      font-size: 100%; /* Decrease logo size for smaller screens */
+    }
+  
+    nav ul {
+      flex-direction: row; /* Stack navigation items horizontally on smaller screens */
+      align-items: center; /* Center-align navigation items */
+    }
+  
+    nav ul li {
+      margin: 0px 5px; /* Adjust spacing between navigation items */
+    }
+  }
+#details{
+    background-color:#226666 ;
+    color: white;
+    font-weight: 700;
+}
+
+
+#products img {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+}
+#products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product {
+    width: auto;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+    
+}
+
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.product h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+.product p {
+    font-size: 1em;
+    color:black;
+}
+@media screen and (max-width: 375px){
+    .product{
+        font-size: 70%;
+    }
+    
+}
+.container img{
+    width: auto;
+    height: auto;
+}
+.containergrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* styling for the cosmetics table*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    word-wrap: break-word;
+}
+th {
+    background-color: #f2f2f2;
+    font-weight: 700;
+    font-size: 150%;
+    color: #226666;
+}
+#tablep{
+    color: #226666;
+    font-weight: 600;
+}
+.table-container {
+    overflow-x: auto;
+    margin: 20px;
+}
+.product-t {
+    width: 200px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+    
+}
+
+
+.product-t img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.product-t h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+.product-t p {
+    font-size: 1em;
+    color:black;
+}
+@media screen and (max-width: 768px) {
+    /* Adjust table for smaller screens */
+    table {
+        font-size: 80%; /* Reduce font size for smaller screens */
+    }
+
+    /* Change from four columns to two columns */
+    table tr td, table tr th {
+        width: 50%; /* Two columns */
+    }
+}
+/* Flexbox layout for responsive design */
+@media only screen and (max-width: 250px) {
+    .table-container {
+        overflow-x: auto;
+    }
+    
+    table {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    tr {
+        width: 50%;
+    }
+}
+
+
+/*stylyong for the order form*/
+.form {
+    
+    margin: 0 auto;
+    background:#226666  ;
+    box-shadow: 4px 12px 40px 6px rgba(0, 0, 0, 0.09) ;
+    font-family:'poppins';
+    margin-top: 20px;
+    border-radius:8px;
+    width: 80vw; 
+    gap: 200px;
+    justify-content: center;   
+    display:flex;
+    row-gap: 100px;
+    flex-wrap:wrap ;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="date"] {
+    width: calc(100% - 16px);
+}
+
+input[type="submit"] {
+    background-color: #065a56;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    color:#9cdfe4; 
+    transform: translateY(7px);
+
+}
+fieldset{
+    background-color: #ffffff;
+    
+}
+
+/*styling for the loyalty page*/
+
+.loyalty-benefits {
+    display: flex;
+   flex-wrap:wrap;
+    padding: 100px;
+    margin-bottom: 10px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    
+    
+
+}
+.loyalty-schemes {
+    width: auto;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px gray;
+    background-color:white;
+    color:#226666;
+}
+.loyalty-schemes p,.loyalty-schemes ul{
+    color: black;
+}
+
+.loyalty-schemes h1{
+    font-weight: 700;
+}
+#bg-col{
+   
+   background-color: #226666;  
+}
+.registration-form {
+    max-width: auto;
+    margin: 20px auto;
+    padding: 20px;
+    background-color:#226666;
+    border-radius: 8px;
+    color:#226666;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    background-size: 100% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+    
+}
+
+
+.registration-form h2 {
+    text-align: center;
+    color: white;
+}
+
+.registration-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.registration-form input[type="text"], .registration-form input[type="email"], .registration-form input[type="tel"], .registration-form select {
+    width: 97%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #226666;
+    border-radius: 4px;
+}
+.registration-form select:hover{
+    background-color: #9cdfe4;
+
+}
+
+.registration-form input[type="button"] {
+    background-color:#226666;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px 350px;
+}
+
+.registration-form input[type="button"]:hover {
+    background-color:#9cdfe4;
+}
+/* Media query for responsiveness */
+@media (max-width: 375px) {
+    .registration-form {
+        max-width: 500px; /* Adjust for larger screens */
+    }
+
+    .registration-form input[type="button"] {
+        width: auto; /* Reset button width for larger screens */
+    }
+    .product{
+        width:50%;
+    }
+}
+
+
+
+
+
+
+/*end of styling for the loyalty page*/
+.branch {
+    width: 30%;
+    margin-bottom: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+    /*width: 250px;
+    margin: 20px;
+    padding: 10px;*/
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.branch img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.branch-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+.services-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 40px;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+.services-table th, .services-table td {
+    padding: 10px;
+    border: 1px solid #226666;
+    background-color: #c5e0e0;
+    font-weight: 700;
+}
+
+.services-table th {
+    background-color: #226666;
+    color: white;
+}
+
+.services-table tfoot {
+    font-weight: bold;
+    
+}
+/* For screens smaller than 768px (typical smartphones) */
+@media only screen and (max-width: 768px) {
+    .branch {
+        width: 100%; /* Adjust branch width to fit smaller screens */
+    }
+
+    .services-table th, .services-table td {
+        padding: 8px; /* Adjust padding for smaller screens */
+    }
+}
+
+/* For screens between 768px and 1024px (tablets and small laptops) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .branch {
+        width: 45%; /* Adjust branch width for medium-sized screens */
+    }
+}
+
+/* For screens larger than 1024px (desktops) */
+@media only screen and (min-width: 1024px) {
+    .branch {
+        width: 30%; /* Adjust branch width for larger screens */
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .branch iframe {
+        width: 100%;
+        height: 200px; 
+    }
+}
+h3{
+    font-weight:600;
+}
