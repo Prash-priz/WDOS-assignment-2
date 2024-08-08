@@ -539,10 +539,8 @@ fieldset{
    background-color: #226666;  
 }
 .registration-form {
-    max-width: auto;
     margin: 20px auto;
     padding: 20px;
-    background-color:#226666;
     border-radius: 8px;
     color:#226666;
     margin-bottom: 100px;
