@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermarket Website</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link href="./https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="mainheader">
+        <h1 id="logo"><a href="./homepage.html">Grocies</a></h1>
+        <nav>
+            <ul>
+                <li><a href="./homepage.html">Home</a></li>
+                <li class="dropdown">
+                    Products>>
+                    <div class="dropdown-content">
+                        <a href="./vegetables.html">Vegetables</a>
+                        <a href="./dairy.html">Dairy</a>
+                        <a href="./cosmetics.html">Cosmetics</a>
+                    </div>
+                </li>
+                <li><a href="order.html">Order </a></li>
+                <li><a href="./aboutus.html">About Us </a></li>
+                <li><a href="./loyalty.html">Loyalty</a></li>  
+            </ul>
+        </nav>
+    </header>
+    <h2>Unlock Exclusive Benefits with Our Loyalty Program!</h2>
+    <section class="loyalty" >
+        <div class="text-container">
+        <p >At Grocies, we value your loyalty and want to show our appreciation for choosing us as your preferred shopping destination. That's why we're excited to introduce our brand new Loyalty Programs designed to reward you every time you shop with us! </p>
+    </section>
+    <div id="bg-col">
+    <section class="loyalty-benefits">
+        
+        
+        <div class="loyalty-schemes">
+            <h1>Points-Based Loyalty Program</h1> 
+            <hr>
+            <p>Earn points for every purchase made at the supermarket. These points can be accumulated and redeemed for rewards or discounts on future purchases!</p>
+            <ul>
+                <li>Exclusive discounts for selected items</li>
+                <li>Access to weekly deals and promotions</li>
+                <li>Earn points for every purchase</li>
+            </ul>
+            <hr>
+        </div>
+        
+        <div class="loyalty-schemes">
+            <h1>Membership Card Loyalty Program</h1>
+                    <hr>
+                    <p> Sign up for a membership card program offered by the supermarket. Present your membership card at checkout to receive discounts or special offers! </p>
+                    <ul>
+                        <li>Instant Discounts</li>
+                        <li>Member-Only Sales</li>
+                        <li>Freebies or Samples</li>
+                        <li>Birthday Rewards</li>
+                    </ul>
+                    <hr>
+                </div>
+        
+        </section>
+    </div>
+<!-- Registration Form -->
+   
+        <section class="registration-form">
+            <h2>Join our loyalty program to enjoy exclusive benefits!</h2>
+            <form action="/register" method="post" >
+                <div class="prodcut">
+                <fieldset >
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                <br>
+                <label for="phone">Mobile Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="07XXXXXXXX" required>
+                <br>
+                <label for="scheme">Choose a Loyalty Scheme:</label>
+                <select id="scheme" name="scheme" required>
+                    <option value="points based">Points-Based Loyalty Program</option>
+                    <option value="membership card">Membership Card Loyalty Program</option>
+                </select>
+                <br>
+                <input type="button" value="Register">
+                </fieldset>
+                </div>
+            </form>
+        </section>
+    <hr>
+</body>
+<footer>
+    <p>&copy;Grocies. All rights reserved.</p>
+    <p>+94 70 536 6862</p>
+    <p>grociessupermarket@gmail.com</p>
+
+</footer>
+</body>
+</html>
+
+
