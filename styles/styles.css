@@ -107,7 +107,7 @@ footer{
 
 .dairy {
     min-height: 50vh;
-    background: url(/images/dairy\ background.jpeg);
+    background: url(../images/dairy\ background.jpeg);
     background-size: 100% auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -121,7 +121,7 @@ footer{
 }
 .meat {
     min-height: 50vh;
-    background: url(/images/meat\ 2.jpeg);
+    background: url(../images/meat\ 2.jpeg);
     background-size: 100% auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -135,7 +135,7 @@ footer{
 }
 .cosmetics {
     min-height: 50vh;
-    background: url(/images/cosmetics\ background.webp);
+    background: url(../images/cosmetics\ background.webp);
     background-size: 100% auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -149,7 +149,7 @@ footer{
 }
 .loyalty {
     min-height: 50vh;
-    background: url(/images/loyalty.webp);
+    background: url(../images/loyalty.webp);
     background-size: 100% auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -163,7 +163,7 @@ footer{
 }
 .about-us{
     min-height: 50vh;
-    background: url(/images/about\ uss.jpeg);
+    background: url(../images/about\ uss.jpeg);
     background-size: 100% auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -177,7 +177,7 @@ footer{
 }
 .order {
     min-height: 50vh;
-    background: url(/images/order.webp);
+    background: url(../images/order.webp);
     background-size: 100% auto;
     background-position: center;
     background-repeat: no-repeat;
