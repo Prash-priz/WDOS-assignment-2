@@ -278,7 +278,7 @@ a:hover {
 
 .dropdown:hover .dropdown-content {
     display: block;
-}@media screen and (max-width: 600px) {
+}@media screen and (max-width: 300px) {
     .mainheader {
       padding: 2px; /* Reduce padding for smaller screens */
     }
