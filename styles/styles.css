@@ -278,8 +278,7 @@ a:hover {
 
 .dropdown:hover .dropdown-content {
     display: block;
-}
-@media screen and (max-width: 600px) {
+}@media screen and (max-width: 600px) {
     .mainheader {
       padding: 2px; /* Reduce padding for smaller screens */
     }
@@ -298,6 +297,9 @@ a:hover {
       margin: 0px 5px; /* Adjust spacing between navigation items */
       font-size: 1.5vw;
     }
+    nav ul li a {
+        font-size: 3vw;
+      }
   }
 #details{
     background-color:#226666 ;
