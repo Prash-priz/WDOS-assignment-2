@@ -243,7 +243,7 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 65px; /* Adjust spacing between navigation items */
+    margin: 0px 5px; /* Adjust spacing between navigation items */
     font-size: 3vw;
     
 }
