@@ -161,7 +161,7 @@ a:hover {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 600px) {
     .mainheader {
       padding: 5px; /* Reduce padding for smaller screens */
     }
@@ -177,6 +177,7 @@ a:hover {
   
     nav ul li {
       margin: 0px 5px; /* Adjust spacing between navigation items */
+     font-size: 3vw;
     }
   }
 
