@@ -279,9 +279,9 @@ a:hover {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 600px) {
     .mainheader {
-      padding: 5px; /* Reduce padding for smaller screens */
+      padding: 2px; /* Reduce padding for smaller screens */
     }
   
     #logo {
@@ -291,10 +291,12 @@ a:hover {
     nav ul {
       flex-direction: row; /* Stack navigation items horizontally on smaller screens */
       align-items: center; /* Center-align navigation items */
+      flex-wrap: wrap;
     }
   
     nav ul li {
       margin: 0px 5px; /* Adjust spacing between navigation items */
+      font-size: 1.5vw;
     }
   }
 #details{
