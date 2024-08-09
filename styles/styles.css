@@ -204,7 +204,7 @@ footer{
 .text-container h2{
     color: white;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 600px) {
     .home {
         max-height: 30vh; /* Decrease minimum height for smaller screens */
     }
@@ -244,6 +244,7 @@ nav ul {
 
 nav ul li {
     margin: 0 65px; /* Adjust spacing between navigation items */
+    font-size: 3vw;
     
 }
 
