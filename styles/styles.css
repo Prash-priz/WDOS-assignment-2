@@ -244,7 +244,7 @@ nav ul {
 
 nav ul li {
     margin: 0px 5px; /* Adjust spacing between navigation items */
-    font-size: 3vw;
+    font-size: 1.5vw;
     
 }
 
@@ -263,6 +263,7 @@ a:hover {
     position: absolute;
     background-color: #226666;
     min-width: 160px;
+    z-index:1;
 }
 
 .dropdown-content a {
